@@ -37,8 +37,8 @@ abstract class UnitTestCase extends PhalconTestCase
 
     public function setUp()
     {
-        $_SERVER['SERVER_NAME'] = 'bca.loc';
-        $_SERVER['HTTP_HOST'] = 'bca.loc';
+        $_SERVER['SERVER_NAME'] = 'site.loc';
+        $_SERVER['HTTP_HOST'] = 'site.loc';
         parent::setUp();
 
         // Загрузка дополнительных сервисов, которые могут потребоваться во время тестирования

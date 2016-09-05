@@ -84,7 +84,7 @@ abstract class CntrlrTestCaseF extends PhalconTestCase
         $di->set("response", 'Phalcon\Http\Response');
         $di->set('flashSession', 'Phalcon\Flash\Session');
         $this->setDi($di);
-        $_SERVER['HTTP_HOST'] = 'bca.loc';
+        $_SERVER['HTTP_HOST'] = 'site.loc';
         $loader = new \Phalcon\Loader();
         $loader->registerNamespaces(array('Multiple\Frontend' => '../apps/frontend/'))->register();
         $module = new \Multiple\Frontend\Module;
