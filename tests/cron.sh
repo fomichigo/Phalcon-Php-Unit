@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-cd "/var/www/bca/bca/tests/"
-"phpunit" > "/var/www/bca/logs/phpunit.log"
+cd "/var/www/site/site/tests/"
+"phpunit" > "/var/www/site/logs/phpunit.log"
